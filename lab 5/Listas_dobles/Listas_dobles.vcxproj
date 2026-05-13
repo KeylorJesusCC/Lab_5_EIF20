@@ -123,7 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HistorialDoble.cpp" />
     <ClCompile Include="Listas_dobles.cpp" />
+    <ClCompile Include="NodoHistorial.cpp" />
+    <ClCompile Include="NodoLocutor.cpp" />
+    <ClCompile Include="RotacionCircular.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HistorialDoble.h" />
+    <ClInclude Include="NodoHistorial.h" />
+    <ClInclude Include="NodoLocutor.h" />
+    <ClInclude Include="RotacionCircular.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
