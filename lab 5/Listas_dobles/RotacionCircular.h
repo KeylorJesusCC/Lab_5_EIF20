@@ -30,7 +30,7 @@ namespace EIF201 {
 
         // Busqueda
         // Verifica si un locutor está en la rotación.
-        bool existeLocutor(const string& nombre) const;
+        bool existeLocutor(const string& nombre) const;// la implementamos nosotros
 
         // Retorna la posición (0-indexed desde la cabeza). -1 si no existe.
         int obtenerPosicion(const string& nombre) const;
