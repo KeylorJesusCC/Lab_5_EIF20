@@ -200,7 +200,7 @@ namespace EIF201 {
     }
    
 
-    string RotacionCircular::locutorMasActivo() const {//camvios
+    string RotacionCircular::locutorMasActivo() const {
         if (cola == nullptr) return "";
 
         NodoLocutor* cabeza = getCabeza();
