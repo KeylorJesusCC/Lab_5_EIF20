@@ -11,6 +11,7 @@ namespace EIF201 {
     struct NodoLocutor {
         string       nombre;
         NodoLocutor* siguiente; // en la lista circular, el último apunta al primero
+        int turnosAsignados;// se colocao este atributo para usarlo en las funsiones nuebas
 
         NodoLocutor(const string& n)
             : nombre(n), siguiente(nullptr) {
@@ -21,6 +22,7 @@ namespace EIF201 {
             cout << "[NodoLocutor destruido: " << nombre << "]" << endl;
         }
     };
+
 
 } // namespace EIF201
 

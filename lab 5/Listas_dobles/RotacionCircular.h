@@ -57,6 +57,9 @@ namespace EIF201 {
 
         int getCantidad() const;
         bool estaVacia()  const;
+    
+        void imprimirEstadisticas() const;//camvio
+        string locutorMasActivo() const;//camvio
     };
 
 } // namespace EIF201

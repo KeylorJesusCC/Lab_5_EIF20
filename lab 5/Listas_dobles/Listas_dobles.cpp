@@ -75,6 +75,12 @@ int main() {
         while (!r.estaVacia()) r.eliminarTurnoActual();
         cout << "Vacia: " << (r.estaVacia() ? "si" : "no") << endl; // si
         cout << "Siguiente vacia: '" << r.siguiente() << "'" << endl; // ''
+
+        cout << "\n--- REQUISITOS NUEVOS ---" << endl;
+        r.imprimirEstadisticas();
+
+        string masActivo = r.locutorMasActivo();
+        cout << "El locutor mas activo es: " << masActivo << endl;
     }
 
     return 0;
